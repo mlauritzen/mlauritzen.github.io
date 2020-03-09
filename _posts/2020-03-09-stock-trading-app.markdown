@@ -1,15 +1,9 @@
 ---
 layout: post
-title:  "My first post!"
-date:   2020-03-05 12:04:00 +0000
+title:  "CalmStocks: A simple stock price alerts web app, using Angular, the IEX API, and serverless AWS services."
+date:   2020-03-09 16:57:00 +0000
 categories: learning
 ---
-Wohooooooo!!!
-
-Amaziiin
-
-
-
 
 # CalmStocks: A simple stock price alerts web app, using Angular, the IEX API, and serverless AWS services.
 
