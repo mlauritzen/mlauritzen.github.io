@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "My first post!"
+date:   2020-03-05 12:04:00 +0000
+categories: learning
+---
+Wohooooooo!!!
+
+Amaziiin
+
+
+
+
+# CalmStocks: A simple stock price alerts web app, using Angular, AWS (Cognito, Lambda, AppSync/GraphQL, DynamoDB, SES), and IEX's API (for stock price data).
+
+### Quicklinks
+ - [Introduction](#introduction)
+ - [Features](#features)
+
+## Introduction
+
+This is a simple stock price alerts web app, using Angular and AWS (Cognito, Lambda, AppSync/GraphQL, DynamoDB). Twice a day, it checks each user's high/low alerts against real stock prices and alerts them via email if the threshold is reached.
+
+## Features
+
+- GraphQL Mutations (`src/app/graphql/mutations`)
+  - Create new alert
+  - Delete an alert
+
+- GraphQL Queries (`src/app/graphql/queries`)
+  - Get all of a user's alerts
+
+- Authentication
+  - The app uses Cognito User Pools to sign up users and authenticate them
+  
+- Authorization
+  - The app uses JWT Tokens from Cognito User Pools as the authorization mechanism
+
+## Getting Started
+
+#### Prerequisites
+
+* [AWS Account](https://aws.amazon.com/mobile/details) with appropriate permissions to create the related resources
+* [NodeJS](https://nodejs.org/en/download/) with [NPM](https://docs.npmjs.com/getting-started/installing-node)
+* [Angular CLI](https://github.com/angular/angular-cli) `(npm install -g @angular/cli)`
