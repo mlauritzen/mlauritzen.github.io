@@ -11,7 +11,7 @@ Amaziiin
 
 
 
-# CalmStocks: A simple stock price alerts web app, using Angular, AWS (Cognito, Lambda, AppSync/GraphQL, DynamoDB, SES), and IEX's API (for stock price data).
+# CalmStocks: A simple stock price alerts web app, using Angular, the IEX API, and serverless AWS services.
 
 ### Quicklinks
  - [Introduction](#introduction)
@@ -19,7 +19,7 @@ Amaziiin
 
 ## Introduction
 
-This is a simple stock price alerts web app, using Angular and AWS (Cognito, Lambda, AppSync/GraphQL, DynamoDB). Twice a day, it checks each user's high/low alerts against real stock prices and alerts them via email if the threshold is reached.
+This is a simple stock price alerts web app, using Angular, IEX's API for stock price data, and serverless AWS services on the backend (Cognito, Lambda, AppSync/GraphQL, DynamoDB). Twice a day, it checks each user's high/low alerts against real stock prices and alerts them via email if the threshold is reached.
 
 ## Features
 
