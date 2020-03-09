@@ -5,8 +5,6 @@ date:   2020-03-09 16:57:00 +0000
 categories: learning
 ---
 
-# CalmStocks: A simple stock price alerts web app, using Angular, the IEX API, and serverless AWS services.
-
 ### Quicklinks
  - [Introduction](#introduction)
  - [Features](#features)
