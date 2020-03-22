@@ -7,7 +7,7 @@ categories: learning
 
 ## Quality code allows you to change your application to suit new requirements
 
-An application built with quality code is easy to change or modify, for example by adding an additional feature.
+An application built with quality code is easy to change or modify, for example by adding more features.
 
 If you were building an application for a single problem that you knew would definitely stay the same, there'd be 
 no point thinking about "quality code" - you should simply get to a solution that works well and move on!
@@ -19,7 +19,7 @@ So, we need quality code!
 
 ## But what IS quality code?
 
-So we know that quality code is what makes an application easy to modify in the face of new requirements. But what IS it?
+We know that quality code is what makes an application easy to modify in the face of new requirements. But what IS it?
 
 I like the following high level definition (from Steve Smith / @ardalis):
 
