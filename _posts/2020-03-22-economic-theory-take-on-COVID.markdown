@@ -13,7 +13,10 @@ It may just be me missing my Economics studies, but I thought this was a really 
 
 Some of my key takeaways / interesting bits were:
 
+Takeaway:
 > “We find that it is optimal to introduce large-scale containment measures that result in a sharp, sustained drop in aggregate output. This optimal containment policy saves about 600,000 lives in the U.S.” and “there is an inevitable trade-off between the severity of the recession and the health consequences of the epidemic.”
+
+Takeaway:
 > "The competitive equilibrium is not Pareto optimal because people infected with the virus do not fully internalize the effect of their consumption and work decisions [...] because each individual agent takes economy-wide infection rates as given."
 
 Assumption:
