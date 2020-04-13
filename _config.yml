@@ -20,7 +20,7 @@
 
 title: Mikkel Lauritzen
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Mikkel, a software engineer in London. I use this blog to
+  I'm Mikkel, a software engineer based in London. I use this blog to
   keep myself accountable to sharing my learnings and projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
