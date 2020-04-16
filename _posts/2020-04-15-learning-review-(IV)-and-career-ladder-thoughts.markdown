@@ -48,4 +48,4 @@ Based on the above, it's clear to me that my main development are is to solidify
 The best way to consolidate my learning is to write or build, so my next benchmark projects will be:
 + write 3 blog posts summarising my understanding and giving examples of software engineering and clean code fundamentals.
 + build (public on Github!) one project drawing together my learnings (e.g. a project demonstrating concurrency performance benefits with Akka.NET with an Angular frontend).
-
++ deconstruct or build a small open source project or node module and write about it (should be more front-end-y as most of my day-to-day is backend).
