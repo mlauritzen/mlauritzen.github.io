@@ -37,22 +37,24 @@ Follow SOLID principles of Object Oriented Design:
 - **Interface Segregation Principle:** classes that use interfaces should use all or most of the interface's exposed members -- don't depend on functionality they don't use. Leads to interfaces that are small, focused, and cohesive.
 - **Dependency Inversion Principle:** low level concerns should depend on high level concerns, not vice versa. E.g. business layer code shouldn't depend on data access code, but rather an abstraction should exist for the business code to work with which the data access code implements. Ensures loose coupling and more testable code.
 
-And the classic: Don't Repeat Yourself (DRY)!
+And the classic and self-explanatory: **Don't Repeat Yourself (DRY)**!
 
-"Code smells" suggests that your code is not of a good quality (and probably doesn't follow the above principles). Look out for e.g.:
-- code that is difficult to write unit tests for
-- code with lots of comments (ideally you should just be able to read the code like English paragraphs!)
-- use of the "new" keyword in C# -- suggests that there's a dependency, which should probably be passed in via constructor instead.
+## "Code smells" imply that your code is not as DRY or SOLID as it could be
+"Code smells" suggest that your code is not of a good quality (and probably doesn't follow the above principles). Look out for e.g.:
+- code that is difficult to write unit tests for,
+- code with lots of comments (ideally you should just be able to read the code like English paragraphs!),
+- use of the "new" keyword (suggesting that there's a dependency, which should probably be passed in via the constructor instead).
 
 ## Pain-driven development: don't let quality code get in the way!
 
-To ensure all this *increases* productivity, we need to be careful when applying these principles. If we apply them right from the "get go", we risk ending up spending a lot of time writing very abstract code that does very little.
+To ensure all this *increases* productivity, we need to be careful when applying these principles. If we apply them right from the start, we risk ending up spending a lot of time writing very abstract code that does very little.
 
-To combat this, Kent Beck suggests follow these three steps when writing code: Make it work, Make it right, Make it fast.
+To combat this, Kent Beck suggests follow these three steps when writing code:
+1) First, **make it work**
+2) then, **make it right**
+3) and finally, **make it fast**.
 
-Steve Smith says something similar, namely to follow "Pain-Driven Development".
-
-That is, first write the code you need to solve the problem. *Then*, evaluate whether the code has any major "code smells" (e.g. hard to unit test).
+Steve Smith says something similar, namely to follow ***Pain-Driven Development***. That is, to start out by writing the code you need to solve the problem. *Then*, evaluate whether the code has any major "code smells" (e.g. hard to unit test).
 
 ## Useful resources:
 
