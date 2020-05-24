@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building my robot army: Sentimental Robot reads the news"
-date:   2020-05-24 20:00:00 +0000
+date:   2020-05-24 15:00:00 +0000
 categories: learning
 ---
 
