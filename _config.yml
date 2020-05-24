@@ -20,8 +20,7 @@
 
 title: Mikkel Lauritzen
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Mikkel, a software engineer based in London. I use this blog to
-  keep myself accountable to sharing my thinking, learnings, and projects.
+  Sharing my ideas, learnings, and projects. Reserving all rights to be wrong, to change my mind, and to share half-baked views.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: miksimal
@@ -31,6 +30,7 @@ google_analytics: UA-158781077-1
 # Build settings
 theme: minima
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
 
 # Exclude from processing.
