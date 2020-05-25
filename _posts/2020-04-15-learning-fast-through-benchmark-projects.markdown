@@ -3,6 +3,8 @@ layout: post
 title:  "Learning fast through benchmark projects"
 date:   2020-04-15 08:37:00 +0000
 categories: learning
+slug: learn-through-benchmark-projects
+canonical_url: 'https://miksimal.com/learn-through-benchmark-projects'
 ---
 
 I try to keep all of my learning objectives focused on "benchmark projects".

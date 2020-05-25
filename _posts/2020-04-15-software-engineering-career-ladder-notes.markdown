@@ -2,7 +2,9 @@
 layout: post
 title:  "Notes on the software engineering career ladder"
 date:   2020-04-15 09:35:00 +0000
-categories: learning
+categories: career
+slug: software-engineering-career-ladder
+canonical_url: 'https://miksimal.com/software-engineering-career-ladder'
 ---
 
 I recently did a bit of research on role expectations for mid-level / "non-junior" engineers to help guide my learning.

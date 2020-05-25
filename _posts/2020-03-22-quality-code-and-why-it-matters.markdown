@@ -2,7 +2,9 @@
 layout: post
 title:  "Quality code - and why it matters"
 date:   2020-03-22 15:11:00 +0000
-categories: learning
+categories: fundamentals
+slug: quality-code-and-why-it-matters
+canonical_url: 'https://miksimal.com/quality-code-and-why-it-matters'
 ---
 
 ## Quality code allows you to change your application to suit new requirements
