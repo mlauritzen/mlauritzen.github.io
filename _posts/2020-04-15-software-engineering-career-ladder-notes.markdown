@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on the software engineering career ladder"
+title:  "The software engineering career ladder: five traits and skills to progress"
 date:   2020-04-15 09:35:00 +0000
 categories: career
 slug: software-engineering-career-ladder
@@ -9,7 +9,7 @@ canonical_url: 'https://miksimal.com/software-engineering-career-ladder'
 
 I recently did a bit of research on role expectations for mid-level / "non-junior" engineers to help guide my learning.
 
-## Approach
+### Approach
 
 My approach was to look at various different companies public career ladders and see what the common traits/achievements for "non-junior" / mid-level engineers were. My main source for these career ladders was [swyx' excellent collection of public career ladders](https://www.swyx.io/writing/career-ladders/).
 
@@ -18,7 +18,8 @@ I found the following three career ladders to be the clearest and most applicabl
 + [RentTheRunway](https://dresscode.renttherunway.com/blog/ladder)
 + [Fog Creek](https://www.joelonsoftware.com/2009/02/13/fog-creek-professional-ladder/)
 
-## The five traits and skills that make someone a "non-junior" engineer
+
+### The five traits and skills that make someone a "non-junior" engineer
 
 These five categories seemed the most important in the majority of the career ladders.
 

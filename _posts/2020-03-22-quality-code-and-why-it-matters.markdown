@@ -7,7 +7,7 @@ slug: quality-code-and-why-it-matters
 canonical_url: 'https://miksimal.com/quality-code-and-why-it-matters'
 ---
 
-## Quality code allows you to change your application to suit new requirements
+### Quality code allows you to change your application to suit new requirements
 
 An application built with quality code is easy to change or modify, for example by adding more features.
 
@@ -19,7 +19,7 @@ and businesses adapt. Start-ups must constantly iterate on their product.
 
 So, we need quality code!
 
-## But what IS quality code?
+### But what IS quality code?
 
 We know that quality code is what makes an application easy to modify in the face of new requirements. But what IS it?
 
@@ -31,7 +31,7 @@ I like the following high level definition (from Steve Smith / @ardalis):
 > - easily and quickly tested by automated tests (which reduces the need for expensive manual testing),
 > - loosely coupled to infrastructure concerns like databases or files.
 
-## How do you write quality code?
+### How do you write quality code?
 Follow SOLID principles of Object Oriented Design:
 - **Single Responsibility Principle:** a class (or, more generally, "a piece of code") should have only one responsibility (or, only one reason to change). I.e. have small, focused classes.
 - **Open/Closed Principle:** Open for extension, Closed for modification. I.e. should be able to change behaviour of system, without modifying its source code. For example, add an insurance policy type.
@@ -41,13 +41,13 @@ Follow SOLID principles of Object Oriented Design:
 
 And the classic and self-explanatory: **Don't Repeat Yourself (DRY)**!
 
-## "Code smells" imply that your code is not as DRY or SOLID as it could be
+### "Code smells" imply that your code is not as DRY or SOLID as it could be
 "Code smells" suggest that your code is not of a good quality (and probably doesn't follow the above principles). Look out for e.g.:
 - code that is difficult to write unit tests for,
 - code with lots of comments (ideally you should just be able to read the code like English paragraphs!),
 - use of the "new" keyword (suggesting that there's a dependency, which should probably be passed in via the constructor instead).
 
-## Pain-driven development: don't let quality code get in the way!
+### Pain-driven development: don't let quality code get in the way!
 
 To ensure all this *increases* productivity, we need to be careful when applying these principles. If we apply them right from the start, we risk ending up spending a lot of time writing very abstract code that does very little.
 
@@ -58,7 +58,7 @@ To combat this, Kent Beck suggests follow these three steps when writing code:
 
 Steve Smith says something similar, namely to follow ***Pain-Driven Development***. That is, to start out by writing the code you need to solve the problem. *Then*, evaluate whether the code has any major "code smells" (e.g. hard to unit test).
 
-## Useful resources:
+### Useful resources:
 
 * [Pluralsight SOLID course](https://app.pluralsight.com/library/courses/csharp-solid-principles/)
 * [This](https://weeklydevtips.com/episodes/047) *Weekly Dev Tips* episode
