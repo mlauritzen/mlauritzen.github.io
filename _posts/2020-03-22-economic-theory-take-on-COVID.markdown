@@ -3,6 +3,7 @@ layout: post
 title:  "The economic theory lens on COVID19"
 date:   2020-03-22 21:27:00 +0000
 categories: economics
+excerpt: ''
 slug: economic-theory-take-on-COVID
 canonical_url: 'https://miksimal.com/economic-theory-take-on-COVID'
 ---

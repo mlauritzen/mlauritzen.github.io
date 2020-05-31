@@ -3,6 +3,7 @@ layout: post
 title:  "The software engineering career ladder: five traits and skills to progress"
 date:   2020-04-15 09:35:00 +0000
 categories: career
+excerpt: ''
 slug: software-engineering-career-ladder
 canonical_url: 'https://miksimal.com/software-engineering-career-ladder'
 ---
