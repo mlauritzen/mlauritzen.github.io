@@ -18,7 +18,7 @@ I might publish a more detailed walk-through of how this was built, but below ar
 
 ### Backend: Lambda, Comprehend, Cloudwatch, DynamoDB, and API Gateway
 
-The Github repo for the backend <a href="https://github.com/miksimal/sentimental-robot-backend" target=_blank> can be found here</a>.
+The Github repo for the backend <a href="https://github.com/miksimal/sentimental-robot-backend" target="_blank"> can be found here</a>.
 
 #### Collecting, analysing and storing the headlines
 
@@ -37,7 +37,7 @@ A GET request to this endpoint triggers a Lambda which queries the DynamoDB tabl
 
 ### Frontend and hosting/distribution: React, Bootstrap, s3, and CloudFront
 
-The Github repo for the frontend <a href="https://github.com/miksimal/sentimental-robot-frontend" target=_blank> can be found here</a>.
+The Github repo for the frontend <a href="https://github.com/miksimal/sentimental-robot-frontend" target="_blank"> can be found here</a>.
 
 The frontend is a very simple React app, using React Bootstrap for styling (in particular, for the 'Accordion' that displays the result for each day and more info when clicked).
 
@@ -56,7 +56,7 @@ Firstly, the sentiment analysis seems weird sometimes... Was 31 May really *posi
 
 ![31 May sentiment is positive despite these headlines](/assets/weirdSentimentAnalysis.png)
 
-Second, the only thing you can get from the frontend is the past 7 days' headlines and their analyses, but perhaps there's something more interesting to be done with the increasing amount of historical data I'll have available. Tbd! E.g. something like what <a href="http://hedonometer.org/timeseries/en_all/" target=_blank>Hedonometer.org did here.</a>
+Second, the only thing you can get from the frontend is the past 7 days' headlines and their analyses, but perhaps there's something more interesting to be done with the increasing amount of historical data I'll have available. Tbd! E.g. something like what <a href="http://hedonometer.org/timeseries/en_all/" target="_blank">Hedonometer.org did here.</a>
 
 
 Finally, there are lots of things that are not 'production'-ready here that I am not going to spend time fixing, at least for now. For example, I don't have any proper error handling and I just let my IAM role permissions apply to all resources using the wildcard statement, '*'.
