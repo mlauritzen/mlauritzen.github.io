@@ -14,27 +14,30 @@ In AWS's own words, Comprehend 'is a natural language processing (NLP) service t
 
 Using this and a few other services, I created a <a href="https://sentimentalrobot.miksimal.com/" target="_blank">sentimental robot which reads the news</a>. More precisely, it grabs the top 10 BBC headlines each morning, chugs them into Comprehend for a sentiment analysis, and lets the user see the past few days' analyses.
 
-I might publish a more detailed walk-through of how this was built, but below are my high-level notes.
+I might publish a more detailed walk-through of how this was built, but below are my high-level notes and links to the Github repos.
 
 ### Backend: Lambda, Comprehend, Cloudwatch, DynamoDB, and API Gateway
 
+The Github repo for the backend <a href="https://github.com/miksimal/sentimental-robot-backend" target=_blank> can be found here</a>.
+
 #### Collecting, analysing and storing the headlines
 
-A Cloudwatch Rule is set to trigger a Lambda function to run every day at 10AM. 
+A Cloudwatch Rule is set to trigger a Lambda function to run every day at 10AM.
 
-This Lambda function scrapes the top 10 headlines from the BBC's website (bbc.co.uk). It then invokes a second Lambda function, providing it the 10 headlines.
-
-This second Lambda (written in Python) uses Amazon Comprehend to analyse the sentiment of the headlines and then gives back the resulting analysis to the first Lambda.
-
-Finally, the first Lambda posts the headlines along with a date and the sentiment analysis to a table in DynamoDB.
+This Lambda:
++ scrapes the top 10 headlines from the BBC's website (bbc.co.uk),
++ it then makes a request to the Comprehend service, providing the headlines,
++ finally, it formats the results and puts them into a DynamoDB table.
 
 #### Allowing the frontend to query the headlines database table
 
 Through API Gateway, I made available the endpoint https://gp7dnv8i52.execute-api.eu-west-1.amazonaws.com/dev/getlatestbbc/ that the client can make GET requests to.
 
-A GET request to this endpoint triggers a Lambda which queries the DynamoDB table for the headlines and analyses returns them to the requester in reverse chronological order.
+A GET request to this endpoint triggers a Lambda which queries the DynamoDB table for the past 7 days' headlines and their analyses.
 
 ### Frontend and hosting/distribution: React, Bootstrap, s3, and CloudFront
+
+The Github repo for the frontend <a href="https://github.com/miksimal/sentimental-robot-frontend" target=_blank> can be found here</a>.
 
 The frontend is a very simple React app, using React Bootstrap for styling (in particular, for the 'Accordion' that displays the result for each day and more info when clicked).
 
@@ -47,6 +50,13 @@ I found an error in the guide and since I found it so valuable I used this as an
 
 ### Potential next steps / stuff that is broken
 
-Sentiment analysis seems weird sometimes... Is today really positive?
+There are a few things I know are broken or could be improved, some of which I might do at one point!
 
-Can't continue to just give back all results. Will probably just restrict to the last seven days for now to keep things simple, but in a future project maybe there's something interesting to be done with the increasing amount of data I have available.
+Firstly, the sentiment analysis seems weird sometimes... Was 31 May really *positive*?
+
+![31 May sentiment is positive despite these headlines](/assets/weirdSentimentAnalysis.png)
+
+Second, the only thing you can get from the frontend is the past 7 days' headlines and their analyses, but perhaps there's something more interesting to be done with the increasing amount of historical data I'll have available. Tbd! E.g. something like what <a href="http://hedonometer.org/timeseries/en_all/" target=_blank>Hedonometer.org did here.</a>
+
+
+Finally, there are lots of things that are not 'production'-ready here that I am not going to spend time fixing, at least for now. For example, I don't have any proper error handling and I just let my IAM role permissions apply to all resources using the wildcard statement, '*'.
