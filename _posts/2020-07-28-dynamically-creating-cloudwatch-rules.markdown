@@ -146,6 +146,7 @@ resources:
   - Resources:
       RecurringPairAndEmailInvokePermission:
         Type: AWS::Lambda::Permission
+        DependsOn: RecurringPairAndEmailLambdaFunction
         Properties:
           Action: lambda:InvokeFunction
           Principal: events.amazonaws.com
