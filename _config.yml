@@ -20,7 +20,7 @@
 
 title: Mikkel Lauritzen
 description: >- # this means to ignore newlines until "baseurl:"
-  Sharing my ideas, learnings, and projects.
+  Ideas, learnings, and projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://miksimal.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: miksimal

@@ -4,25 +4,25 @@ title: About
 permalink: /about/
 ---
 
-### Greetings! 👋 
-I'm Mikkel, a Danish tech nerd based in London.
+### Greetings! 👋
+Welcome to my internet home.
 
-I use this site to share my ideas, learnings, and projects.
+I want as few excuses as possible not to write, so as you explore my writing, please expect to find:
+- Loosely held and half-baked opinions and ideas.
+- Mistakes - I may well share something I've only quickly researched.
+- A mixed bag of topics but usually 'tech stuff' (SaaS, startups, edtech, fintech, product, serverless, coding...).
 
-The two big reasons for doing this are to (a) learn faster through your disagreement, input, and feedback, and (b) to keep in touch with and get to know more people who share my interests. In short, don't be shy about reaching out. My email is {myfirstname}.h{mylastname}@gmail.com ☕️
+If you think something is great, terrible, prompts an idea, or you just want to say hi, I'd love to connect: {myfirstname}.hlauritzen@gmail.com ☕️
 
-### What to expect ❓ 
+#### About me
+Here are some things I've been up to over the past few years:
 
-In the autumn of 2019, I taught myself to code and became a software engineer, so most of the posts on here will centre around 'programming stuff', meaning things like 'quality code', serverless, Javascript, React, databases, etc.
+👨‍💻 **2019-now:** taught myself to code and started working as a software engineer (first in drone/security tech, then in fintech at [YouLend](https://youlend.com/)). I am excited about 'serverless and serviceful' architectures (see [this](https://martinfowler.com/articles/serverless.html), [this](https://www.infoq.com/articles/serverless-sea-change/#.W_lKKexTzFI.twitter), and [this](https://blenderphone.com/) for some background).
 
-Other topics I am interested in, and hope to write about occasionally, include finance/investing, education technology, strategy, SaaS and startups, economics, and philosophy.
+🚀 **2017-2019:** joined [Aula Education](https://aula.education) as first non-programmer hire, resulting in a firehose of learning about enterprise sales, marketing, building software products, and venture capital as I led efforts to sign our first 10 university partnerships and helped scale the company from 6 to 50 employees.
 
-I want as few excuses as possible not to write on this blog, so please expect any opinions and ideas you find here to be 'half-baked' and subject to change (again, I'd love to hear your feedback!).
+📈 **2016:** interned at [McKinsey & Company](https://www.mckinsey.com/). Slept very little, learnt a lot: making excellent slides, using Excel, communicating with busy people, 80/20, etc.
 
-### Short bio 🔥
-**Currently:** London-based Software Engineer.
+🌍 **2015/16:** as President of [DSA](https://dsabroad.dk/), I worked with lots of great people, lobbied politicians to make it easier for Danes to study abroad, hosted a great careers conference in parliament, and got a taste for entrepreneurship e.g. by signing a big sponsorship deal and hiring our first employee.
 
-**Previously:** Philosophy/Economics student at Oxford and the first non-tech hire at the edtech start-up [Aula Education](https://aula.education) where I focused on enterprise sales and implementation, signing our first university partnerships and helping scale the team from 6 to 50 employees.
-
-### Long bio 🐌
-(*Probably* coming soon)
+📚 **2014-2017:** studied Philosophy, Politics, and Economics at the University of Oxford. Sat exams in subjects ranging from microeconomics and formal logic to theories of justice and Aristotle's Nicomachean Ethics. Got interested in [Effective Altruism](https://www.effectivealtruism.org/) and (mostly) stopped eating meat.

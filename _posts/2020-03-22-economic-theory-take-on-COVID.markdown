@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "The economic theory lens on COVID19"
+title:  "An economic theory lens on COVID19"
 date:   2020-03-22 21:27:00 +0000
 categories: economics
-excerpt: ''
+excerpt: "Recent paper on 'The Macroeconomics of Epidemics'."
 slug: economic-theory-take-on-COVID
 canonical_url: 'https://miksimal.com/economic-theory-take-on-COVID'
 ---
 
 
 
-Martin S. Eichenbaum, Sergio Rebeloy, and Mathias Trabandtz published [The Macroeconomics of Epidemics](https://fb8280a8-a-62cb3a1a-s-sites.googlegroups.com/site/mathiastrabandt/home/downloads/EichenbaumRebeloTrabandt_EpidemicsMacro.pdf?attachauth=ANoY7cpdeOf20qZsaT9xeAu47Z-fEaInIGv-DreJPAMw7dPy0hqGwsvm_keIrmgBEEzXFo2tLUIBkIdfaIbCFT2ECmtcgcBKrO4w29atUYc5i-mmjv2qsDZC4klSxwZY0y9pLQYTUA1CusuLTXR1jRsDY8DDPkOcyxKdLsEbPlKrPdBPKThEDP2HnxQ9YOaOYpDW4uLkFB7oYJWJgq53QCocyV6DxLnZ1rwXaA8hnUxlipVl-VyzAnDoIXAn62d5ZhgGO2jsxdOTbT3KVxoRqXqBJcyz0_H32Q%3D%3D&attredirects=0) on March 20.
+Martin S. Eichenbaum, Sergio Rebeloy, and Mathias Trabandtz published [The Macroeconomics of Epidemics](https://fb8280a8-a-62cb3a1a-s-sites.googlegroups.com/site/mathiastrabandt/home/downloads/EichenbaumRebeloTrabandt_EpidemicsMacro.pdf?attachauth=ANoY7cpdeOf20qZsaT9xeAu47Z-fEaInIGv-DreJPAMw7dPy0hqGwsvm_keIrmgBEEzXFo2tLUIBkIdfaIbCFT2ECmtcgcBKrO4w29atUYc5i-mmjv2qsDZC4klSxwZY0y9pLQYTUA1CusuLTXR1jRsDY8DDPkOcyxKdLsEbPlKrPdBPKThEDP2HnxQ9YOaOYpDW4uLkFB7oYJWJgq53QCocyV6DxLnZ1rwXaA8hnUxlipVl-VyzAnDoIXAn62d5ZhgGO2jsxdOTbT3KVxoRqXqBJcyz0_H32Q%3D%3D&attredirects=0) on March 20, 2020.
 
 It may just be me missing my Economics studies, but I thought this was a really excellent and accessible read, illustrating the economist's model-based way of thinking about COVID and about the world in general.
 
