@@ -92,28 +92,28 @@ Some great resources are:
 ## Projects
 The majority of my learning was structured around the following projects. Whenever I learnt something new, I would go back and apply it to these.
 
-#### **<a href="https://virtualwatercooler.xyz/" target="_blank">Virtual Watercooler</a>**
+### **<a href="https://virtualwatercooler.xyz/" target="_blank">Virtual Watercooler</a>**
 Allows you to create an 'organisation', add members to it, and then randomly pair members for coffee chats - either by clicking a button or by choosing a frequency.
 
 **Backend tech stack:** DynamoDB (single-table design), API Gateway, Cognito, Lambda (Javascript), SQS, SES, Cloudwatch, s3, and CloudFront. All packaged up with Serverless Framework.
 
 Code available <a href="https://github.com/miksimal/virtualwatercooler-backend" target="_blank">here</a>. Wrote <a href="https://dev.to/miksimal/how-to-dynamically-create-cloudwatch-rules-to-let-users-schedule-recurring-actions-2php" target="_blank">this</a> to help me confirm that my approach to letting admins schedule recurring chats made sense.
 
-#### **<a href="https://sentimentalrobot.miksimal.com/" target="_blank">Sentimental Robot</a>**
+### **<a href="https://sentimentalrobot.miksimal.com/" target="_blank">Sentimental Robot</a>**
 Scrapes BBC news headlines each morning, runs them through sentiment analysis, and allows the user to search through headlines and sentiments, or just get an overview of the past few days' sentiment. Had already started this but built a lot on top during the challenge.
 
 **Backend tech stack:** Algolia, DynamoDB and DynamoDB Streams, Comprehend, CloudWatch, API Gateway, Lambda (Javascript), s3, CloudFront. All except Algolia packaged up with Serverless Framework.
 
 Code available <a href="https://github.com/miksimal/sentimental-robot-backend" target="_blank">here</a>.
 
-#### **<a href="https://forgotmyglasses.miksimal.com/" target="_blank">ForgotMyGlasses</a>**
+### **<a href="https://forgotmyglasses.miksimal.com/" target="_blank">ForgotMyGlasses</a>**
 Tend to forget your glasses? No problem, teach the robot what your friends look like and use it to help you recognise them in the wild.
 
 **Backend tech stack:** Rekognition, Lambda (Javascript), Cognito Identity Pool (unauthenticated role), and Cloudwatch. Using Serverless Framework as always.
 
 Code available <a href="https://github.com/miksimal/forgotmyglasses" target="_blank">here</a>.
 
-#### **SimpleQuiz (in progress)**
+### **SimpleQuiz (in progress)**
 Started this right at the end of the challenge. Decided on the data model and got a basic <a href="https://twitter.com/miksimal/status/1318299480773582849?s=20" target="_blank">real-time connection working with subscriptions</a>.
 
 **Backend tech stack:** AppSync (GraphQL), DynamoDB, Lambda (Javascript), Cognito Identity Pool (unauthenticated role), and a few more probably.
