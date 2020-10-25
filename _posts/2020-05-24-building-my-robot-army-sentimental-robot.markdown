@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Sentimental Robot reads the news"
-excerpt: "Scraping and sentiment analysing BBC headlines every day, using Cloudwatch, Comprehend, DynamoDB, CloudFront, s3, API Gateway, and Lambda."
 date:   2020-05-24 15:00:00 +0000
 categories: serverless
 slug: sentimental-robot

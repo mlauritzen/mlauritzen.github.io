@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Dynamically create CloudWatch Rules to let users schedule recurring actions"
-excerpt: "Serverless Framework, API Gateway, Lambda, and CloudWatch."
 date:   2020-07-28 08:05:00 +0000
 categories: serverless
 slug: dynamically-create-cloudwatch-rules

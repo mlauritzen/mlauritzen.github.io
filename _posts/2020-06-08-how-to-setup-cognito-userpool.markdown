@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "How to quickly set up a Cognito User Pool with custom attributes in the Serverless Framework and create a test user"
-excerpt: "Notes for my future self and whomever else this may concern!"
 date:   2020-06-08 20:28:00 +0000
 categories: serverless
 slug: cognito-attributes-howto

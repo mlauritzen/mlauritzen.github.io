@@ -7,10 +7,10 @@ permalink: /about/
 ### Greetings! 👋
 Welcome to my internet home.
 
-I want as few excuses as possible not to write, so as you explore my writing, please expect to find:
+I want as few excuses as possible not to write, so as you explore the site, please expect to find:
 - Loosely held and half-baked opinions and ideas.
 - Mistakes - I may well share something I've only quickly researched.
-- A mixed bag of topics but usually 'tech stuff' (SaaS, startups, edtech, fintech, product, serverless, coding...).
+- A mixed bag of topics but usually 'tech stuff' (SaaS, startups, edtech, fintech, product, serverless).
 
 If you think something is great, terrible, prompts an idea, or you just want to say hi, I'd love to connect: {myfirstname}.hlauritzen@gmail.com ☕️
 
